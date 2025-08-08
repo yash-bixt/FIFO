@@ -23,7 +23,7 @@ Status flags:
 
 ## ▶️ Simulation
 1. Open the project in **Vivado** or **ModelSim**.
-2. Compile both `sfifo.v` and `tb_sfifo.v`.
+2. Compile both `sfifo.v` and `tb.v`.
 3. Run the simulation to observe:
    - FIFO filling and emptying
    - Overflow and underflow prevention
