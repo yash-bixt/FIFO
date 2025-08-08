@@ -22,14 +22,10 @@ Status flags:
 - `empty` → asserted when FIFO is empty  
 
 ## ▶️ Simulation
-1. Open the project in **Vivado**, **ModelSim**, or **Icarus Verilog**.
+1. Open the project in **Vivado** or **ModelSim**.
 2. Compile both `sfifo.v` and `tb_sfifo.v`.
 3. Run the simulation to observe:
    - FIFO filling and emptying
    - Overflow and underflow prevention
    - Simultaneous read/write operations
 
-Example (with Icarus Verilog):
-```bash
-iverilog -o fifo_sim sfifo.v tb_sfifo.v
-vvp fifo_sim
